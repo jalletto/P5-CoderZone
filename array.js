@@ -1,6 +1,5 @@
 function setup() {
   createCanvas(500, 500);
-  console.log(circles[4]);
 }
 
 function draw() {
@@ -26,7 +25,4 @@ function draw() {
   //Change the 5 to the last number in the array
   fill(0, 0, 5);
   ellipse(250, 250, 100, 100);
-
-  //second circle goes here!
-  circles[1];
 }
